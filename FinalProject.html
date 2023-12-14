@@ -1,0 +1,165 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <!-- Include Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Lucida Console;
+                font-size: medium;
+                background-image: url('line.jpg');
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+            }
+
+            .header {
+                background-color: #415868;
+                text-align: center;
+                margin: 1px;
+                padding: 0.5px;
+            }
+
+            .me {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                padding: 20px;
+            }
+
+            .me img {
+                max-width: 20%;
+                height: auto;
+            }
+
+            #about-me {
+                padding: 20px;
+            }
+
+            #about-me h4 {
+                margin-top: 0;
+            }
+
+            #about-me p {
+                margin-bottom: 0;
+            }
+
+            #projects {
+                text-align: center;
+                color: #070707;
+                background-color: rgb(127, 180, 192);
+                padding: 20px;
+            }
+
+            #projects h2 {
+                margin-bottom: 10px;
+            }
+
+            .card-container {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+
+            .card {
+                width: 20%;
+                margin: 10px;
+            }
+
+            .card-header {
+                background-color: #343a40;
+                color: #fff;
+            }
+
+            /* Add media query for responsiveness */
+            @media (max-width: 768px) {
+                .card-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .card {
+                    width: 70%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h2>My Portfolio</h2>
+        </div>
+        <header class="me">
+            <img src="kei.jpg" alt="My Profile Picture" style="max-width: 20%; height: auto;">
+            
+            </div>
+            <div id="about-me">
+                <p>KIMBERLY P. PADUA</p>
+                <p>BSIT Student</p>
+                <p>Major in Web Technology</p>
+                <div>
+                <h4>🚀 Greetings, Fellow Adventurers of the Digital Realm! 🌐</h4>
+                <p>Hello World! I'm Kimberly Padua, a passionate explorer navigating the vast landscape of web development. Picture me as a coding enthusiast equipped with a keyboard and a compass, embarking on a thrilling quest to master the art of crafting virtual wonders.</p>
+                <h4>🌱 Sprouting Developer</h4>
+            <p>As a seedling in the coding garden, I'm currently in the process of sprouting my skills in web development. Each line of code I write is a tiny leaf, and every bug I encounter is just a friendly insect challenging me to a duel. It's an exhilarating journey of growth and discovery.</p>
+            <h4>🌟 Why Web Development?</h4>
+            <p>Because, in this ever-connected world, being a web developer is like being a modern-day wizard—shaping the very fabric of the online universe. And just like any spellcaster, I believe in the power of community, collaboration, and the occasional debugging spell to conquer the challenges that lie ahead.</p>
+            <h4>🚀 The Unwritten Chapters</h4>
+            <p>So, here's to the next chapter, filled with the unknown and the excitement of exploration. Join me as I pen the unwritten pages of this coding saga—where every keystroke is a step forward and every project is a new adventure waiting to unfold.</p>
+            <h3><center>Coding Horizons Await—Keep Going!</center></h3>
+            </div>
+        </header>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-header">
+                        Activity 1
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap + jQuery - Midterm Exam</h5>
+                        <a href="./index-4.html" target="_blank" class="btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        Activity 2
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap & jQuery - Progress Bars with Buttons and Event Handlers</h5>
+                        <a href="ProgressBar.html" target="_blank" class="btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        Activity 3
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap + jQuery - Registration Form</h5>
+                        <a href="BootStrap - JavaScript Activity 2.html" target="_blank" class="btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        Activity 4
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Table Rows and Columns</h5>
+                        <a href="Bootstrap - jQuery Activity 3.html" target="_blank" class="btn btn-primary">Visit Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
